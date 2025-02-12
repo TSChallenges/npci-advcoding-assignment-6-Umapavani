@@ -16,7 +16,7 @@ class Barcode {
             
             // Check if the digit is even or odd
             if (digit % 2 == 0) {
-                bcode = bcode + "❚";
+                bcode = bcode + "|";
             } else {
                 bcode = bcode + "|";
             }
